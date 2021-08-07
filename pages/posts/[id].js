@@ -3,6 +3,7 @@ import Layout from "../../components/layout";
 import Date from "../../components/date";
 import {getAllPostIds, getPostData} from "../../lib/posts";
 import utilStyles from '../../styles/utils.module.css';
+import Image from "next/image";
 
 
 export default function Post({postData}) {
@@ -19,6 +20,18 @@ export default function Post({postData}) {
                 </div>
                 <div dangerouslySetInnerHTML={{__html: postData.contentHtml}}/>
             </article>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <Image src='/images/whistle.gif'
+                   alt='blow whistle'
+                   width={272}
+                   height={480}
+            />
         </Layout>
     )
 }
