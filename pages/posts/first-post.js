@@ -12,7 +12,10 @@ export default function FirstPost() {
             </Head>
             <h1>First Post</h1>
             <Image src={test}
-                   alt='This Series IS OVER!'
+                   alt='blow whistle'
+                   placeholder='blur'
+                   // width='1364'
+                   // height='2048'
             />
         </Layout>
     )

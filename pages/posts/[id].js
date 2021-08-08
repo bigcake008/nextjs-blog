@@ -35,6 +35,7 @@ export default function Post({postData}) {
             {/*/>*/}
             <Image src={whistle}
                    alt='whistle!'
+                   // placeholder='blur'
             />
         </Layout>
     )
